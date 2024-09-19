@@ -1,9 +1,11 @@
+
 import time
 import random
 import undetected_chromedriver as uc
-from selenium.webdriver.common.by import By
+from selenium.webdriver.common.by import By # selenium used as a powerful tool for controlling web browsers through programs and automating browser tasks
 
 # Initialize undetected ChromeDriver
+#web driver for automation
 options = uc.ChromeOptions()
 options.add_argument("--disable-blink-features=AutomationControlled")
 driver = uc.Chrome(options=options)
